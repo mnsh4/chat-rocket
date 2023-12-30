@@ -6,7 +6,7 @@ publish = false
 
 
 [dependencies]
-rocket = "0.5.0"
+rocket = {version="0.5.0", features = ["json"]}
 
 
 [dev-dependencies]
